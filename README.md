@@ -1,8 +1,6 @@
-# React + Vite
+# Buscador de CEP em React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2><a href ="https://buscador-de-cep-green.vercel.app/">Link do projeto</a></h2>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Captura de tela 2024-03-13 155009](https://github.com/GustavoNery88/Buscador-de-CEP/assets/88352887/c4129de6-3e6a-48e7-ae9b-c1c5e2043c86)
