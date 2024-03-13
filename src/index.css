@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(#121212, #212b46);
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.principal {
+  width: 500px;
+  background-color: rgb(186, 184, 184);
+  padding: 50px;
+  margin-top: 60px;
+  border-radius: 6px;
+}
+
+.principal .btn {
+  color: white;
+}
+
+.principal h2 {
+  font-weight: 700;
+}
+
+.resultado-cep {
+  width: 500px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  gap: 30;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  animation: drop-alert 0.5 ease-out forwards;
+}
+
+@media screen and (max-width: 578px) {
+  .principal, .resultado-cep {
+    width: 350px;
+
+  }
+
+  .principal {
+    padding: 20px;
+  }
+
+  .principal h2 {
+    font-size: 19px;
+  }
+
+  .principal input {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .principal, .resultado-cep {
+    width: 250px;
+  }
+
+  .principal h2 {
+    font-size: 18px;
+  }
+
+  .principal input {
+    font-size: 14px;
+  }
+
+  .principal button{
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .resultado-cep h5{
+    font-size: 18px;
+  }
+
+  .resultado-cep span{
+    font-size: 15px;
+  }
+
+}
